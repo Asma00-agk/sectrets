@@ -1,0 +1,98 @@
+<%- include('partials/header') %>
+  <%- include('partials/navbar') %>
+
+    <h1 class="h1N">What is a passport JS?</h1> <br>
+
+    <div class="press">
+      <p>Passport JS is authentication middleware that supports over 500 authentications
+        strategies.The Passport JS framework can be used for any
+        Express-based website. Some features that are worth mentioning with Passport JS are that there are: </p>
+
+    
+    </div> <br>
+
+
+    <h3 class="h1N">Passport strategies</h3> <br>
+
+    <div class="press">
+      <p>Each strategy uses the Passport JS framework as a template.
+        The Passport Local strategy uses Cookies, Express Session and some authentication logic.
+        My website uses the Passport-Local strategy which gives me a simple and easy code implementation. On each
+        http request, Passport will use the strategy to
+        check if the request has a permission to access the resources. If the user is not authenticated then
+        the server will respond with a 401 error "unauthorized" and will be sent to the login page.
+        If the user is authenticated, he will have access to the http request.
+
+        
+
+        <br>
+        
+   </p>
+
+     
+
+    </div>
+
+    <br>
+
+
+    <h3 class="h1N" id="Registrering">Registrering</h3> <br>
+
+    <div class="press">
+      <p>When you press the register button, a few things will happen in the background.
+        The server will receive email and passwords.
+        Then it will salt and hash it through a plugin "Passport local mongoose".
+        After it has salted and hasha email and password, it will send it to the database for storage.When you press the register button, a few things will happen in the background.
+        The server will receive email and passwords.
+        Then it will salt and hash it through a plugin "Passport local mongoose".
+        After it has salted and hasha email and password, it will send it to the database for storage.
+      <br>
+    <br>
+  
+ </p>
+
+        
+
+    </div>
+
+    <br>
+
+
+    <h3 class="h1N" id="Pålogging">Pålogging</h3> <br>
+
+    <div class="press">
+      <p>When you press the "Login" button, the website will send it to the server for processing. The password will be
+        salted and hashed just like when you sign up. It will be checked against what is in the database.
+        After this, Passport will use the "Passport-local" strategy to declare whether you are authenticated.
+        <br>
+        <br>
+      </p>
+
+        
+      </p>
+
+    </div> <br>
+
+    <h3 class="h1N" id="Rammeverk">Passport JS, secure framework?</h3> <br>
+
+    <div class="press">
+      <p>Passport JS is a credible framework that has been used by millions of people and is
+        safe to use. The program itself is strong, but the user's own introduction of poor implementation codes can
+        weaken the website. Privacy is safe when using Passport JS, due to the open source framework.
+        When it comes to data security, the level is optimally desired, but it is not so secure against session fixation.
+        The problem does not lie with
+        Passport JS, but rather express session.</p>
+
+
+    </div>
+
+    <h3 class="h1N" id="github">Github</h3> <br>
+    <div class="press">
+      The general aim of project management methodology is to be able to standardize, structure, and organize work methods.
+       This helps focus all projects in the same way and allows us to repeat successful aspects and learn from mistakes, 
+      resulting in a continuous improvement process.
+    </div>
+
+
+
+    <%- include('partials/footer') %>
